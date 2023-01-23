@@ -1,0 +1,53 @@
+###### tags: `Development`
+
+# BrowserExt
+
+
+## Snippet 1:
+
+- **`app/src/main/java/head/App.java`**
+```java=
+package head;
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+        System.out.println(Helper.power);
+    }
+}
+```
+
+- **`app/src/main/java/head/Helper.java`**
+```java=
+package head;
+class Helper {
+	static int power = 5;
+}
+```
+
+- [End Snippet 1]
+
+
+## Snippet 2: how to make world a better place
+
+- **`app/src/main/java/head/App.java`**
+```java=
+package head;
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Goodbye World");
+        System.out.println(Helper.power);
+    }
+}
+```
+
+- **`app/src/main/java/head/Helper.java`**
+```java=
+package head;
+class Helper {
+	static int power = 42;
+}
+```
+
+- [End Snippet 2]
+
+- Some other text here
