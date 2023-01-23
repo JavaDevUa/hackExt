@@ -1,0 +1,9 @@
+{
+  "name": "ping",
+  "description": "Deleting this key will result in an error.",
+  "path": "/home/pros/.config/chromium/NativeMessagingHosts/ping.py",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://bpkompkgipaaflmohcnfmhkohfdnoidc/"
+  ]
+}
