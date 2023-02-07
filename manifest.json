@@ -1,6 +1,6 @@
 {
-    "name": "hackee",
-    "description": "quick examples",
+    "name": "Hackee",
+    "description": "Run examples quickly",
     "version": "1.0",
     "manifest_version": 3,
     "action": {
@@ -10,11 +10,5 @@
 	    "service_worker": "background.js"
     },
     "permissions": ["scripting", "storage", "nativeMessaging"],
-    "host_permissions": ["https://hackmd.io/"],
-    "browser_specific_settings": {
-        "gecko": {
-	    "id": "addon@example.com",
-	    "strict_min_version": "42.0"
-	}
-    }
+    "host_permissions": ["https://hackmd.io/"]
 }
