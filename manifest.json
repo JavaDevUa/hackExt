@@ -1,6 +1,6 @@
 {
-    "name": "yard",
-    "description": "investigate",
+    "name": "hackee",
+    "description": "quick examples",
     "version": "1.0",
     "manifest_version": 3,
     "action": {
